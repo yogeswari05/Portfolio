@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+   <link rel="stylesheet" href="style.css">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+   <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+      <div class="navbar hide_nav">
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="0about.html">About</a></li>
+               <li><a href="1education.html">Educational background</a></li>
+               <li><a href="2achievements.html">Achievements</a></li>
+               <li><a href="3skills.html">Skills</a></li>
+               <li><a href="4blogs.html">Blogs</a></li>
+            </ul>
+         </nav>
+      </div>
+      <div class="main">
+         <div class="menu">
+            <div class="ham">
+               <img class="open" width="23" src="images/menuopen.png">
+               <img class="close" width="23" src="images/close.webp">
+            </div>
+         </div>
+         <!-- Add this button inside the body tag -->
+         <div class="toggle-container">
+            <label class="switch">
+               <input type="checkbox" id="toggle-mode">
+               <span class="slider round"></span>
+            </label>
+            <span class="toggle-label" for="toggle-mode">Dark</span>
+         </div>
+         <div class="about">
+            <div class="aboutInfo">
+               <div class="wish"> Hi, I am </div>
+               <div class="name">Yogeswari</div>
+               <div class="btn"><a href="portfolio.pdf" target="_blank"><button class="btncls">Download resume</button></div></a>
+            </div>
+            <div class="profilePic">
+               <img id="profilepic" src="images/img.jpg" alt="profile pic">
+            </div>
+         </div>
+         <div class="footer_container">
+            <div class="details">
+               <div class="wrapper">
+                  <a href="https://www.facebook.com/yogeswari05"  target="_blank" class="icon facebook">
+                     <div class="tooltip">Facebook</div>
+                     <span><i class="fab fa-facebook-f"></i></span>
+                  </a>
+                  <a href="https://twitter.com/Yogeswari05" target="_blank" class="icon twitter">
+                     <div class="tooltip">Twitter</div>
+                     <span><i class="fab fa-twitter"></i></span>
+                  </a>
+                  <a href="https://www.instagram.com/yogeswari_chekka/" target="_blank" class="icon instagram">
+                     <div class="tooltip">Instagram</div>
+                     <span><i class="fas fa-camera-retro"></i></span>
+                  </a>
+                  <a href="https://github.com/yogeswari05" target="_blank" class="icon github">
+                     <div class="tooltip">Github</div>
+                     <span><i class="fab fa-github"></i></span>
+                  </a>
+                  <a href="https://www.youtube.com/channel/UC6bap0D3ydIhfbqpZl6zuNQ" target="_blank" class="icon youtube">
+                     <div class="tooltip">Youtube</div>
+                     <span><i class="fas fa-play-circle"></i></span>
+                  </a>
+                  <a href="mailto:yedukondaluchekka.com" target="_blank" class="icon envelope">
+                     <div class="tooltip">Email</div>
+                     <span><i class="fas fa-envelope"></i></span>
+                  </a>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
